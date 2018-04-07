@@ -423,7 +423,7 @@ BUILDSYS_TOUCH_DEPS
 AC_OUTPUT([
 	buildsys.mk
 	extra.mk
-	ashtheme-services.pc
+	foxatheme-services.pc
 ])
 
 d=`eval echo ${MODDIR}`
