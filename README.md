@@ -1,4 +1,4 @@
-## Ashtheme
+## FoxAtheme
 [![Build Status](https://travis-ci.org/ShaleCoders/Ashtheme.svg?branch=master)](https://travis-ci.org/ShaleCoders/Ashtheme)
 
 Ashtheme is a set of services for IRC networks designed for large IRC networks with high
@@ -21,7 +21,7 @@ If you're still lost, read [INSTALL](INSTALL) for hints.
 
 ## links / contact
 
- * [GitHub](http://www.github.com/ShaleCoders/Ashtheme)
- * [Website](http://www.letstalkcoding.net)
- * [IRC](irc://irc.letstalkcoding.net/#Ashtheme)
+ * [GitHub](http://www.github.com/adamh1989/FoxAtheme)
+ * [Website](http://www.foxatmic.net)
+ * [IRC](irc://irc.foxatomic.net/#FoxAtheme)
 
