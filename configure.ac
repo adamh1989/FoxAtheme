@@ -1,4 +1,4 @@
-dnl Copyright (c) 2015 ShaleCoders Development Group
+dnl Copyright (c) 2018 FoxAthemes Development Group
 dnl Rights to this code are documented in doc/LICENSE.
 dnl
 dnl This file is the autoconf stub.
@@ -7,12 +7,12 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
 
-AC_INIT(ashtheme, 1.0.3, shalecoders@gmail.com)
+AC_INIT(foxatheme, 1.0.3, foxatheme@gmail.com)
 
 AC_CONFIG_AUX_DIR(autoconf)
 
 AC_CONFIG_HEADER(include/sysconf.h)
-AC_PREFIX_DEFAULT(~/ashtheme)
+AC_PREFIX_DEFAULT(~/foxatheme)
 
 dnl Buildsys module stuff
 BUILDSYS_INIT
@@ -173,12 +173,12 @@ AC_HELP_STRING([--enable-fhs-paths],[ Use more FHS-like pathnames (for packagers
   case "$enableval" in
   yes)
     FHSPATHS="yes"
-    DOCDIR='${datadir}/doc/ashtheme'
-    MODDIR='${libdir}/ashtheme'
-    SHAREDIR='${datadir}/ashtheme'
-    LOGDIR='${localstatedir}/log/ashtheme'
-    DATADIR='${localstatedir}/lib/ashtheme'
-    RUNDIR='${localstatedir}/run/ashtheme'
+    DOCDIR='${datadir}/doc/foxatheme'
+    MODDIR='${libdir}/foxatheme'
+    SHAREDIR='${datadir}/foxatheme'
+    LOGDIR='${localstatedir}/log/foxatheme'
+    DATADIR='${localstatedir}/lib/foxatheme'
+    RUNDIR='${localstatedir}/run/foxatheme'
     ;;
   no)
     FHSPATHS="no"
@@ -430,7 +430,7 @@ d=`eval echo ${MODDIR}`
 d=`eval echo $d`
 echo "
 Configuration:
-	Ashtheme version       : ${PACKAGE_VERSION}
+	FoxAthme version       : ${PACKAGE_VERSION}
 	Installation prefix  : ${prefix}
 	Module root directory: `eval echo $d`
 	Config directory     : ${sysconfdir}
@@ -448,4 +448,4 @@ Configuration:
 	CFLAGS               : ${CFLAGS}
 	Internationalization : ${USE_NLS}
 
-Type make to build ashtheme, and make install to install it."
+Type make to build foxatheme, and make install to install it."
