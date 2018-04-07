@@ -578,14 +578,13 @@ MFLAGS=
 MAKEFLAGS=
 
 # Identity of this package.
-PACKAGE_NAME='ashtheme'
-PACKAGE_TARNAME='ashtheme'
-PACKAGE_VERSION='1.0.3'
-PACKAGE_STRING='ashtheme 1.0.3'
-PACKAGE_BUGREPORT='shalecoders@gmail.com'
+PACKAGE_NAME='foxatheme'
+PACKAGE_TARNAME='foxatheme'
+PACKAGE_VERSION='1.0.4'
+PACKAGE_STRING='foxatheme 1.0.4'
+PACKAGE_BUGREPORT='foxatheme@gmail.com'
 PACKAGE_URL=''
-
-ac_default_prefix=~/ashtheme
+ac_default_prefix=~/foxatheme
 # Factoring default headers for most tests.
 ac_includes_default="\
 #include <stdio.h>
